@@ -1,0 +1,31 @@
+*{box-sizing: border-box;}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("https://images4.alphacoders.com/280/thumb-1920-280554.jpg");
+}
+.card{
+    background-color: white;
+    width: 27%;
+    height: 520px;
+    margin: 2% auto;
+    border-radius: 10px;
+}
+.top, .body, .bottom{
+    font-size: 6em;
+}
+.top, .bottom{
+    padding: 3%;
+    color: red;
+}
+.body{
+    margin-top: 20%;
+    margin-left: 43%;
+}
+.bottom{
+    color: red;
+    margin-top: 19%;
+    float: right;
+    rotate: 180deg;
+}
